@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Portfolio | CodeAlpha Intern</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">&#60;DevOps/&#62;</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="about">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Your Name</span></h1>
+            <p class="tagline">DevOps Intern @ CodeAlpha</p>
+            <p class="bio">
+                Passionate about automation, containerization, and building scalable infrastructure.
+                Currently learning CI/CD pipelines, Docker, and cloud technologies.
+            </p>
+            <div class="server-info" id="serverInfo">
+                <span class="dot green"></span>
+                <span id="statusText">Server: Nginx running in Docker</span>
+            </div>
+            <a href="#projects" class="btn-primary">View My Projects</a>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2>Tech Stack</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">🐳</div>
+                <h3>Docker</h3>
+                <p>Container lifecycle, Dockerfile, Docker Compose</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">⚙️</div>
+                <h3>CI/CD</h3>
+                <p>GitHub Actions, Jenkins, automated pipelines</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">☕</div>
+                <h3>Java / Gradle</h3>
+                <p>Spring Boot, dependency management, automated builds</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🌐</div>
+                <h3>Nginx</h3>
+                <p>Web server config, reverse proxy, static hosting</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">📦</div>
+                <h3>Git</h3>
+                <p>Version control, branching strategies, GitHub</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">☁️</div>
+                <h3>Cloud Basics</h3>
+                <p>Azure, container registries, app services</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>Internship Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-tag">Task 3</span>
+                    <h3>Student Grade Management API</h3>
+                </div>
+                <p>A RESTful API built with Spring Boot and automated using Gradle.
+                   Features full CRUD operations, JUnit tests, and GitHub Actions CI/CD pipeline.</p>
+                <div class="project-tech">
+                    <span>Java</span><span>Spring Boot</span><span>Gradle</span><span>H2</span>
+                </div>
+                <a href="https://github.com/yourusername/CodeAlpha_StudentGradeAPI"
+                   class="project-link" target="_blank">View on GitHub →</a>
+            </div>
+            <div class="project-card active">
+                <div class="project-header">
+                    <span class="project-tag">Task 4</span>
+                    <h3>Dockerized Portfolio Web Server</h3>
+                </div>
+                <p>This very website! Served by Nginx inside a Docker container.
+                   Demonstrates container lifecycle, health checks, and Docker Compose orchestration.</p>
+                <div class="project-tech">
+                    <span>Docker</span><span>Nginx</span><span>Docker Compose</span><span>HTML/CSS</span>
+                </div>
+                <a href="https://github.com/yourusername/CodeAlpha_DockerWebServer"
+                   class="project-link" target="_blank">View on GitHub →</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-links">
+            <a href="https://github.com/yourusername" class="contact-btn">GitHub</a>
+            <a href="https://linkedin.com/in/yourusername" class="contact-btn">LinkedIn</a>
+            <a href="mailto:you@email.com" class="contact-btn">Email</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Built with ❤️ and deployed with 🐳 Docker | CodeAlpha DevOps Internship</p>
+        <p id="dockerInfo"></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

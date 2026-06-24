@@ -82,3 +82,13 @@ Every time code is pushed to the `main` branch or a Pull Request is opened, the 
 3. Pauses for initialization and runs a connection test via `curl`.
 4. Inspects container health status using `docker inspect`.
 5. Logs output stream and shuts down the test container cleanly.
+
+---
+
+## 📸 Output Screenshots
+
+**Portfolio Interface (Task 4 UI):**
+![Portfolio Top](outputs/image.png)
+
+**Portfolio Content Details:**
+![Portfolio Bottom](outputs/image2.png)
